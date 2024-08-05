@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .butt{
+            border-radius: 10px;
+            font-size: 24px;
+            padding: 5px;
+            background-color: black;
+            color:white;
+            cursor: pointer;
+            margin: 20px;
+        }
+        .butt2{
+            border-radius: 10px;
+            font-size: 24px;
+            padding: 5px;
+            background-color: black;
+            color:white;
+            cursor: pointer;
+            margin: 20px;
+            
+        }
+
+        .butt:hover{
+            opacity: 0.75;
+            
+        }
+        .butt2:hover{
+            opacity: 0.7;
+        }
+        .aadhar2 {
+            display: none;
+            border: 2px solid;
+            width: 300px;
+            background-color: aquamarine;
+            margin-left: 300px;
+        }
+        .aadhar2>a {
+            display: block;
+            margin: 10px;
+            text-decoration:none;
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            font-size: 18px;
+        }
+        .aadhar {
+            display: none;
+            border: 2px solid;
+            width: 300px;
+            background-color: bisque;
+
+        }
+        .aadhar>a{
+            display: block;
+            margin: 10px;
+            text-decoration:none;
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            font-size: 18px;
+            /* border: 1px solid; */
+        }
+        .aadhar>a:hover{
+            background-color: aliceblue;
+        }
+        .aadhar2>a:hover{
+            background-color: aliceblue;
+        }
+        .butt:focus-within + .aadhar{
+            display: block;
+        }
+        .butt2:focus-within+ .aadhar2 {
+        display: block;
+        }
+        p:after {
+    content: ' \005E'; 
+    .names {
+        display:block;
+    }
+    
+}
+   
+    </style>
+</head>
+<body>
+    <div class="names">
+    <button class="butt"><p style="padding: 0px;margin: 0px;">MY Aadhar </p></button>
+    <div class="aadhar">
+        <a href="#"><b>Update Your Aadhar</b></a>
+        <a href="#">Document Update</a>
+        <a href="#">Check Aadhar Update Status</a>
+        <a href="#">Update Demographics Data & Check status</a>
+        <a href="#">List Of Supporting Documents For Aadhar Enrollment And Update</a>
+        <a href="#">Enrollment And Update Forms</a>
+        <a href="#">Aadhar Enrollment And Update Charges</a>
+        <a href="#">Aadhar Update History</a>
+        <a href="#">Update Aadhar at Update Center</a>
+    </div>
+    <button class="butt2">About UIDAI</button>
+    <div class="aadhar2">
+        <a href="#"><b>Update Your Aadhar</b></a>
+        <a href="#">Document Update</a>
+        <a href="#">Check Aadhar Update Status</a>
+        <a href="#">Update Demographics Data & Check status</a>
+        <a href="#">List Of Supporting Documents For Aadhar Enrollment And Update</a>
+        <a href="#">Enrollment And Update Forms</a>
+        <a href="#">Aadhar Enrollment And Update Charges</a>
+        <a href="#">Aadhar Update History</a>
+        <a href="#">Update Aadhar at Update Center</a>
+    </div>
+    </div>
+</body>
+</html>
